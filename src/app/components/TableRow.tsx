@@ -16,7 +16,7 @@ export default function TableRow({ product }: { product: ProductProps }) {
       <td className="p-4">
         <Available status={available} />
       </td>
-      <td className="flex p-4">
+      <td className="flex items-center p-4">
         {[...Array(rating)].map((_, index) => (
           <FaStar size={20} key={index} />
         ))}

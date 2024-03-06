@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <div className="container flex flex-col items-center justify-center h-screen p-8">
-        <table className="table-auto w-full rounded shadow-lg">
+        <table className="table-auto w-full rounded shadow-lg ">
           <TableHead />
           <tbody className="">
             {products.map((product) => (

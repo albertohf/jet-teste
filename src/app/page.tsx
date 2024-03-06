@@ -42,6 +42,7 @@ export default function Home() {
             </BrowserView>
             <MobileView>
               <TableSkeletonMobile />
+              <TableSkeletonMobile />
             </MobileView>
           </>
         )}
